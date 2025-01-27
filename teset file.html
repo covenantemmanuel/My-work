@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <mate charset="UTF-8" >
+  <mate name="viewport" content="width=device-width, initial-scale=1">
+  <title>COVENANT</title>
+  <style type="text/css">
+    body {
+      background-color: gold;
+    }
+  </style>
+</head>
+<body>
+  
+  <p><center><h1>SURE BETA </h1></center></p>
+ 
+  
+
+<style type="text/css">
+    h1 {
+      background-color: blue
+    }
+    p {
+      background-color: pink;
+    }
+    
+      background-color: ;
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <h3> <center> welcome, 
+  Sign-up with Sure beta to get started with this webpage. </center></h3>
+  
+    
+  
+  <center>
+ <input type="text" id="username" placeholder="Username" required>
+ 
+ <input type="text" id="Email" placeholder="Email or Phone Number" required>
+ 
+  <input type="text" id="first_name" placeholder="First Name" required>
+ 
+  <input type="text" id="second_name" placeholder="Second Name" required>
+  
+   <input type="text" id="referral_code" placeholder="Referral code" optional>
+ 
+ <input type="password" id="pwd" placeholder="Password" required>
+<div><input type="checkbox" id="chk">Show Password</div>
+ 
+ <script>
+   const pwd = document.getElementById("pwd");
+   const chk = document.getElementById("chk");
+   
+   chk.onchange = function(e) {
+     pwd.type = chk.checked ? "text" : "password";
+ 
+   };
+   
+ </script>
+ 
+<!--CSS code-->
+<style>
+*{margin:0;
+padding:0;
+}
+.loginPage{
+  position:  absolute ;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+height: 450px;
+width: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+}
+
+#username,#Email,#first_name,#second_name,#referral_code,#pwd{
+  margin: 15px 0;
+  width: 260px;
+  height: 40px;
+  border-radius: 22px;
+  padding:  0 2px;
+  background-color: whitesmoke;
+  color: drakblack;
+}
+ 
+</style>
